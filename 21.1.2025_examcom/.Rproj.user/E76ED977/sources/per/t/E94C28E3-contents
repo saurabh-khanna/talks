@@ -1,0 +1,229 @@
+---
+title: "[Higher] Education in an Age of Generative AI"
+subtitle: "<br/>"
+author: "Saurabh Khanna"
+date: "January 16, 2025"
+output:
+  xaringan::moon_reader:
+    # self_contained: true
+    lib_dir: libs
+    css: mediocre-themer.css
+    nature:
+      countIncrementalSlides: no
+      highlightLines: yes
+      highlightStyle: github
+      ratio: '16:9'
+      titleSlideClass: [right, middle, inverse]
+---
+
+class: middle
+
+
+```{r themer, include=FALSE}
+pacman::p_load(mediocrethemes, xaringan, xaringanExtra)
+
+# a string. Defines the color palette selected. Can either be either "autumn", "rainbow", "green", "hotcold", "blackandwhite", "coty", "leo", "portal" or "pem"
+
+xaringan_mediocre(pal = "blackandwhite")
+```
+
+```{r xaringan-extras, echo=FALSE}
+xaringanExtra::use_tile_view()
+xaringanExtra::use_animate_css()
+xaringanExtra::use_animate_all("slide_left")
+xaringanExtra::use_panelset()
+xaringanExtra::use_fit_screen()
+xaringanExtra::use_freezeframe()
+xaringanExtra::use_logo(image_url = "https://i.pinimg.com/originals/ba/52/d7/ba52d7169551ead84f60e3199929bb47.png️")
+```
+
+```{css, echo=FALSE}
+a {
+  text-decoration: none;
+}
+.gray {
+  color: lightgray;
+}
+```
+
+
+# Agenda
+
+- Where we are
+
+- Where we are [as educators]
+
+- Resources at TLC/UvA
+
+---
+
+class: middle, center, inverse
+
+# Where we are
+
+---
+
+class: middle
+
+# Smart AIs are now omnipresent
+
+- End of 2022: ChatGPT launched
+
+- End of 2023: GPT-4 publicly available
+
+- End of 2024<sup><span style="color: #10e313;">1</span></sup>: 
+  + 🇺🇸: OpenAI’s GPT-4o, Anthropic’s Claude Sonnet 3.5, Google’s Gemini 1.5, <span style="color: #10e313;">Llama 3.2 from Meta</span>, Musk’s Grok 2, Amazon’s Nova
+  + 🇨🇳: <span style="color: #10e313;">Alibaba’s Qwen, R1’s DeepSeek, and 01.ai’s Yi</span>
+  + 🇫🇷: <span style="color: #10e313;">Mistral</span>
+
+.footnote[<span style="color: #10e313;"><sup>1</sup> Open-weight models</span>]
+
+---
+
+class: middle
+
+# Even smarter AIs are emerging
+
+![](o1.png)
+
+---
+
+class: middle
+
+# Even smarter AIs are emerging
+
+![](o3.png)
+
+---
+
+class: no-animation
+
+# Advances in 2025
+
+Text has been improving at a slower pace...but is already very good
+
+--
+
+<br/>
+
+Massive improvements in image and video generation
+
+![](sora.png)
+
+---
+
+<video autoplay muted loop style="position:absolute; top:0; left:0; width:100%; height:100%;">
+  <source src="sora.mp4" type="video/mp4">
+  Your browser might not support the video html tag.
+</video>
+
+---
+
+# Collaborating AI Agents
+
+![](vlab.png)
+
+---
+
+class: middle, center, inverse
+
+# Where we are [as educators]
+
+---
+
+class: middle
+
+# The Risks
+
+- ~~Fraud/cheating~~Extremely easy to outsource mental effort
+
+- Academia consistently responding to industry-driven changes
+  + Situation pliable right now, might not be later
+
+- Are we teaching the relevant skills?
+
+---
+
+class: middle
+
+# The Innovation
+
+- Personalized learning pathways
+
+- Enabling creativity
+
+- Breaking language barriers
+
+- Automating administrative tasks
+
+---
+
+class: middle
+
+# The Big/Hard Question
+
+<br/>
+
+_How do we reshape our curriculum, our teaching, and our assessments in this rapidly evolving landscape?_
+
+---
+
+class: middle, center, inverse
+
+# Resources at TLC
+
+---
+
+class: middle
+
+# Resources
+
+- Educational
+  + Workshops/Hackathons
+  + Walk-in Consultancy every Thursday (12-1 PM at REC C0.03)
+
+- Policy: Department-level task force units
+
+- Course-level Risk Assessments
+
+- UvA AI Chatbot
+
+- Teaching Pilots using genAI
+
+---
+
+class: middle, center
+
+# [Course-level Risk Assessments](https://tlc-ai-risk.streamlit.app/)
+
+---
+
+class: middle, center
+
+# [UvA AI Chatbot](https://uva-aichat.azurewebsites.net/chat)
+
+---
+
+class: middle, center
+
+# [Teaching Pilots using genAI](https://tlc.uva.nl/en/article/tlc-fmg-ai-pilot-project-proposals/)
+
+---
+
+class: inverse, middle
+
+# Questions/Thoughts
+
+📧 saurabh.khanna@uva.nl
+
+
+
+
+
+
+
+
+
+
+
+

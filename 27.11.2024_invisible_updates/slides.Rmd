@@ -1,0 +1,105 @@
+---
+title: "🕯️[In]visible Projects"
+subtitle: "<br/> "
+author: "Saurabh Khanna"
+date: "December 17, 2024"
+output:
+  xaringan::moon_reader:
+    # self_contained: true
+    lib_dir: libs
+    css: mediocre-themer.css
+    nature:
+      countIncrementalSlides: no
+      highlightLines: yes
+      highlightStyle: github
+      ratio: '16:9'
+      titleSlideClass: [right, middle, inverse]
+---
+
+class: middle
+
+
+```{r themer, include=FALSE}
+pacman::p_load(mediocrethemes, xaringan, xaringanExtra)
+
+# a string. Defines the color palette selected. Can either be either "autumn", "rainbow", "green", "hotcold", "blackandwhite", "coty", "leo", "portal" or "pem"
+
+xaringan_mediocre(pal = "blackandwhite")
+```
+
+```{r xaringan-extras, echo=FALSE}
+xaringanExtra::use_tile_view()
+xaringanExtra::use_animate_css()
+xaringanExtra::use_animate_all("slide_left")
+xaringanExtra::use_panelset()
+xaringanExtra::use_fit_screen()
+xaringanExtra::use_freezeframe()
+xaringanExtra::use_logo(image_url = "🕯️")
+```
+
+```{css, echo=FALSE}
+a {
+  text-decoration: none;
+}
+.gray {
+  color: lightgray;
+}
+```
+
+
+# 🕯️ [In]visible Projects
+
+
+- [**[In]visible Information**](https://theinvisiblelab.org/): Theory, Measurement, and Boosting
+
+- [**Lost Without Translation**](https://invisiblelang.streamlit.app/)
+
+- [**PictoPercept**](https://pictopercept.streamlit.app/)
+
+- **Shadowbans**
+
+---
+
+# 🕯️ [In]visible Projects
+
+.panelset[
+
+.panel[.panel-name[[In]visible]
+
+- Theory
+- Measurement
+- Boosting
+
+]
+
+
+.panel[.panel-name[LwT]
+
+```{r echo=FALSE, out.height="20%"}
+DiagrammeR::grViz("
+digraph block_diagram {
+  graph [layout = dot]
+  node [shape = box, style = filled, fillcolor = lightblue]
+  A [label = 'Input']
+  B [label = 'Processing']
+  C [label = 'Output']
+  A -> B
+  B -> C
+}
+")
+```
+
+]
+
+.panel[.panel-name[PictoPercept]
+
+
+]
+
+.panel[.panel-name[Shadowbans]
+
+
+]
+
+
+]
